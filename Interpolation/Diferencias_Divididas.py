@@ -11,7 +11,6 @@ def dif_div(x_values, y_values, x_interp):
     n = len(x_values)
     
     F = np.zeros((n,n))
-    A = []
     F[:, 0] = y_values
     
     for j in range(1,n):
